@@ -74,4 +74,8 @@
     #mobile{
         display: block;
     }
+    #board{
+        width:300px;
+        height:300px;
+    }
 }
