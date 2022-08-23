@@ -1,0 +1,76 @@
+#board{
+    border: 3px solid;
+    background-color:azure;
+}
+#gamecon{
+    text-align: center;
+}
+#score{
+    font-family: 'Permanent Marker',cursive;
+    font-size: 50px;
+}
+#reset:hover{
+    transform: scale(1.10);
+    transition: .45;
+}
+#reset:active{
+    transform: scale(0.90);
+    transition: .45;
+}
+#reset{
+    border:2px solid;
+    width: 80px;
+    height:40px;
+    font-family: 'Permanent Marker',cursive;
+    font-size: 18px;
+    border-radius: 14px;
+    cursor:pointer;
+
+}
+
+#sides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+
+}
+#u{
+    background-image: url("./icons/up.png");
+    padding: 36px;
+}
+#r{
+    background-image: url("./icons/right.png");
+}
+#l{
+    background-image: url("./icons/left.png");
+}
+#d{
+    background-image: url("./icons/down.png");
+}
+.phone{
+    justify-content: center;
+    /* border:1px solid; */
+    border:none;
+    border-radius: 55px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: 5px 3px 4px rgba(0,0,0,0.1);
+    background-color: white;
+}
+.phone:hover{
+    opacity:0.7;
+}
+.phone:active{
+    opacity:0.9;
+}
+#mobile{
+    display:none;
+}
+@media(max-width:600px){
+    #mobile{
+        display: block;
+    }
+}
