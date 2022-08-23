@@ -47,6 +47,7 @@
 }
 #d{
     background-image: url("./icons/down.png");
+    padding: 36px;
 }
 .phone{
     justify-content: center;
